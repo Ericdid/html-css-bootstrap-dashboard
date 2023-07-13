@@ -1,8 +1,8 @@
 /* Debug */
 .ms-box {
-  min-height: 100px;
+  /* min-height: 100px;
   line-height: 80px;
-  min-width: 100px;
+  min-width: 280px; */
   border: 2px dashed darkred;
 }
 
@@ -32,12 +32,23 @@ body {
   white-space: nowrap;
 }
 
-/* main-content */
+/* MAIN */
 
+/* main-header */
 #mc-header {
   background-color: #1b72e8;
+  color: white;
   min-height: 100px;
 }
+.null-pad {
+  padding: 1px;
+  background-color: #165bba;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/* main-content */
 
 #main-content {
   flex-grow: 1;
