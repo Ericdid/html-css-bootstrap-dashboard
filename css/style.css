@@ -1,6 +1,9 @@
 /* Debug */
-.ms-debug {
-  border: 2px dashed darkred;
+.ms-box {
+  min-height: 100px;
+  line-height: 80px;
+  /* min-width: 100px; */
+  border: 2px dashed yellow;
 }
 
 /* layout */
@@ -19,7 +22,9 @@ body {
 /* sidebar */
 
 #sidenav {
-  background-color: aquamarine;
+  background-color: #051e34;
+  color: white;
+  background-image: url(../img/sidebar-bg.png);
 }
 
 /* main-content */
@@ -31,5 +36,5 @@ body {
 
 #mc-header {
   background-color: blue;
-  min-height: 200px;
+  min-height: 100px;
 }
