@@ -2,8 +2,8 @@
 .ms-box {
   min-height: 100px;
   line-height: 80px;
-  /* min-width: 100px; */
-  border: 2px dashed yellow;
+  min-width: 100px;
+  border: 2px dashed darkred;
 }
 
 /* layout */
@@ -29,12 +29,16 @@ body {
 
 /* main-content */
 
+#mc-header {
+  background-color: #1b72e8;
+  min-height: 100px;
+}
+
 #main-content {
-  background-color: brown;
   flex-grow: 1;
 }
 
-#mc-header {
-  background-color: blue;
-  min-height: 100px;
+#classes {
+  border: 1px solid grey;
+  border-radius: 5px;
 }
