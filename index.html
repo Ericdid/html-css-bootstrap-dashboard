@@ -110,9 +110,9 @@
         <div id="mc-header">
           <!-- <div class="container"> -->
           <div
-            class="row d-flex flex-column flex-sm-row justify-content-between"
+            class="row d-flex flex-column flex-sm-row justify-content-between g-3"
           >
-            <div class="col-7">
+            <div class="col-12 col-md-6 order-3 order-md-1">
               <span class="display-6">Boolean</span>
               <button class="null-pad">Piano Blaze</button>
               <div>
@@ -128,11 +128,42 @@
                 </button>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 order-2">
               <strong>Studenti online negli ultimi 30 minuti</strong>
               <div class="display-6">126</div>
             </div>
-            <div class="ms-box col-1"></div>
+            <div class="col-12 col-md-3 order-1 order-md-3">
+              <strong>nuovo studente</strong>
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                <i class="bi bi-plus-square w-100"></i>
+              </button>
+
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                    Offcanvas right
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">...</div>
+              </div>
+            </div>
           </div>
           <!-- </div> -->
         </div>
