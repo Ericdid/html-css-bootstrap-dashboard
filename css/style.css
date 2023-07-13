@@ -44,3 +44,7 @@ body {
   border: 1px solid grey;
   border-radius: 5px;
 }
+
+#inputs {
+  border: 1px solid grey;
+}
