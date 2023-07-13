@@ -1,0 +1,17 @@
+/* Debug */
+.ms-debug {
+  border: 2px dashed darkred;
+}
+
+/* layout */
+
+body {
+  height: 100vh;
+}
+
+/* Main */
+
+#ms-main {
+  height: calc(100% - 56px);
+  display: flex;
+}
