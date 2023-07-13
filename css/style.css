@@ -12,6 +12,10 @@ body {
   height: 100vh;
 }
 
+#borded {
+  border: 1px solid grey;
+}
+
 /* Main */
 
 #ms-main {
@@ -44,12 +48,9 @@ body {
   border: 1px solid grey;
   border-radius: 5px;
 }
-
+/* inputs */
 #inputs {
   border: 1px solid grey;
   border-radius: 5px;
   margin: 0px 5px;
-}
-#borded {
-  border: 1px solid grey;
 }
