@@ -29,7 +29,7 @@ body {
   background-color: #051e34;
   color: white;
   background-image: url(../img/sidebar-bg.png);
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 
 /* main-content */
