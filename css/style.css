@@ -25,6 +25,7 @@ body {
   background-color: #051e34;
   color: white;
   background-image: url(../img/sidebar-bg.png);
+  /* white-space: nowrap; */
 }
 
 /* main-content */
@@ -38,7 +39,7 @@ body {
   flex-grow: 1;
 }
 
-#classes {
+#card {
   border: 1px solid grey;
   border-radius: 5px;
 }
