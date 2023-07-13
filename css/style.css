@@ -48,6 +48,32 @@ body {
   border: 1px solid grey;
   border-radius: 5px;
 }
+/* table-like */
+
+th > img {
+  width: 20px;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.red {
+  background-color: darkred;
+  color: white;
+}
+.yellow {
+  background-color: goldenrod;
+  color: white;
+}
+.grey {
+  background-color: grey;
+  color: white;
+}
+.box {
+  padding: 5px;
+  border-radius: 15px;
+}
+
 /* inputs */
 #inputs {
   border: 1px solid grey;
