@@ -36,6 +36,11 @@ body {
   color: white;
 }
 
+/* NAVBAR */
+.logo-mobile {
+  width: 35px;
+}
+
 /* Main */
 
 #ms-main {
