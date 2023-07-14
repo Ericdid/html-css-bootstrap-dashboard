@@ -112,3 +112,17 @@ select {
 .blk-txt {
   color: black;
 }
+
+/* responsive */
+
+/* offcanvas responsive */
+@media screen and (min-width: 991px) {
+  #offcanvasRight {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 990px) {
+  #offcanvasRight {
+    width: 100%;
+  }
+}
