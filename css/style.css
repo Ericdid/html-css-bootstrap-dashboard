@@ -1,11 +1,3 @@
-/* Debug */
-.ms-box {
-  /* min-height: 100px;
-  line-height: 80px;
-  min-width: 280px; */
-  border: 2px dashed darkred;
-}
-
 /* layout */
 
 body {
@@ -14,6 +6,34 @@ body {
 
 #borded {
   border: 1px solid grey;
+}
+
+.box {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+/* palette */
+
+.green {
+  background-color: green;
+  color: white;
+}
+.red {
+  background-color: darkred;
+  color: white;
+}
+.yellow {
+  background-color: goldenrod;
+  color: white;
+}
+.grey {
+  background-color: grey;
+  color: white;
+}
+.blue {
+  background-color: #165bba;
+  color: white;
 }
 
 /* Main */
@@ -64,30 +84,31 @@ body {
 th > img {
   width: 20px;
 }
-.green {
-  background-color: green;
-  color: white;
-}
-.red {
-  background-color: darkred;
-  color: white;
-}
-.yellow {
-  background-color: goldenrod;
-  color: white;
-}
-.grey {
-  background-color: grey;
-  color: white;
-}
-.box {
-  padding: 5px;
-  border-radius: 15px;
-}
 
 /* inputs */
 #inputs {
   border: 1px solid grey;
   border-radius: 5px;
   margin: 0px 5px;
+}
+
+/* OFF-CANVAS */
+.offcanvas {
+  color: black;
+}
+.offcanvas.offcanvas-end {
+  width: 40%;
+}
+.ms-off > input,
+select {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  border-color: rgba(65, 60, 60, 0.247);
+}
+.ms-lst-button {
+  margin: 25px 0 0 10px;
+}
+.blk-txt {
+  color: black;
 }
